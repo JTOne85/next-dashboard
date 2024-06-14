@@ -62,7 +62,7 @@ importers:
         version: 18.2.14
       '@vercel/style-guide':
         specifier: ^5.0.1
-        version: 5.2.0(eslint@8.57.0)(prettier@3.3.2)(typescript@5.2.2)
+        version: 5.2.0(@next/eslint-plugin-next@14.2.4)(eslint@8.57.0)(prettier@3.3.2)(typescript@5.2.2)
       dotenv:
         specifier: ^16.3.1
         version: 16.4.5
@@ -70,8 +70,8 @@ importers:
         specifier: ^8.52.0
         version: 8.57.0
       eslint-config-next:
-        specifier: 15.0.0-rc.0
-        version: 15.0.0-rc.0(eslint@8.57.0)(typescript@5.2.2)
+        specifier: 14.2.4
+        version: 14.2.4(eslint@8.57.0)(typescript@5.2.2)
       eslint-config-prettier:
         specifier: 9.0.0
         version: 9.0.0(eslint@8.57.0)
@@ -264,8 +264,8 @@ packages:
   '@next/env@14.2.4':
     resolution: {integrity: sha512-3EtkY5VDkuV2+lNmKlbkibIJxcO4oIHEhBWne6PaAp+76J9KoSsGvNikp6ivzAT8dhhBMYrm6op2pS1ApG0Hzg==}
 
-  '@next/eslint-plugin-next@15.0.0-rc.0':
-    resolution: {integrity: sha512-/rQXrN47qxlFHtZg77LdcCYbL54ogQuLeqIGV/6HMGnZH8iL81XEFOITO8GZjOukR5i3BbwyfrsmIqFl/scg+w==}
+  '@next/eslint-plugin-next@14.2.4':
+    resolution: {integrity: sha512-svSFxW9f3xDaZA3idQmlFw7SusOuWTpDTAeBlO3AEPDltrraV+lqs7mAc6A27YdnpQVVIA3sODqUAAHdWhVWsA==}
 
   '@next/swc-darwin-arm64@14.2.4':
     resolution: {integrity: sha512-AH3mO4JlFUqsYcwFUHb1wAKlebHU/Hv2u2kb1pAuRanDZ7pD/A/KPD98RHZmwsJpdHQwfEc/06mgpSzwrJYnNg==}
@@ -928,8 +928,8 @@ packages:
     resolution: {integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==}
     engines: {node: '>=10'}
 
-  eslint-config-next@15.0.0-rc.0:
-    resolution: {integrity: sha512-c23lNAAt3oWQ9KtCzJvcApteCJgrntJHc/cgRNbBwrQ3ssx795CiV4hptdDQRmUm7y8VZV3yfrCRrnHMyQ4aOQ==}
+  eslint-config-next@14.2.4:
+    resolution: {integrity: sha512-Qr0wMgG9m6m4uYy2jrYJmyuNlYZzPRQq5Kvb9IDlYwn+7yq6W6sfMNFgb+9guM1KYwuIo6TIaiFhZJ6SnQ/Efw==}
     peerDependencies:
       eslint: ^7.23.0 || ^8.0.0
       typescript: '>=3.3.1'
@@ -2643,7 +2643,7 @@ snapshots:
 
   '@next/env@14.2.4': {}
 
-  '@next/eslint-plugin-next@15.0.0-rc.0':
+  '@next/eslint-plugin-next@14.2.4':
     dependencies:
       glob: 10.3.10
 
@@ -2919,7 +2919,7 @@ snapshots:
       utf-8-validate: 6.0.3
       ws: 8.14.2(bufferutil@4.0.8)(utf-8-validate@6.0.3)
 
-  '@vercel/style-guide@5.2.0(eslint@8.57.0)(prettier@3.3.2)(typescript@5.2.2)':
+  '@vercel/style-guide@5.2.0(@next/eslint-plugin-next@14.2.4)(eslint@8.57.0)(prettier@3.3.2)(typescript@5.2.2)':
     dependencies:
       '@babel/core': 7.24.7
       '@babel/eslint-parser': 7.24.7(@babel/core@7.24.7)(eslint@8.57.0)
@@ -2941,6 +2941,7 @@ snapshots:
       eslint-plugin-unicorn: 48.0.1(eslint@8.57.0)
       prettier-plugin-packagejson: 2.5.0(prettier@3.3.2)
     optionalDependencies:
+      '@next/eslint-plugin-next': 14.2.4
       eslint: 8.57.0
       prettier: 3.3.2
       typescript: 5.2.2
@@ -3411,9 +3412,9 @@ snapshots:
 
   escape-string-regexp@4.0.0: {}
 
-  eslint-config-next@15.0.0-rc.0(eslint@8.57.0)(typescript@5.2.2):
+  eslint-config-next@14.2.4(eslint@8.57.0)(typescript@5.2.2):
     dependencies:
-      '@next/eslint-plugin-next': 15.0.0-rc.0
+      '@next/eslint-plugin-next': 14.2.4
       '@rushstack/eslint-patch': 1.10.3
       '@typescript-eslint/parser': 7.2.0(eslint@8.57.0)(typescript@5.2.2)
       eslint: 8.57.0
