@@ -1,5 +1,5 @@
 {
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "scripts": {
     "build": "next build",
@@ -16,7 +16,7 @@
     "autoprefixer": "10.4.15",
     "bcrypt": "^5.1.1",
     "clsx": "^2.0.0",
-
+    "next": "14.2.4",
     "postcss": "8.4.31",
     "react": "18.3.1",
     "react-dom": "18.3.1",
@@ -37,6 +37,7 @@
     "prettier-plugin-tailwindcss": "0.5.4"
   },
   "engines": {
-    "node": "20.14.0"
-  }
+    "node": "20.12.2"
+  },
+  "packageManager": "pnpm@9.2.0+sha256.94fab213df221c55b6956b14a2264c21c6203cca9f0b3b95ff2fe9b84b120390"
 }
